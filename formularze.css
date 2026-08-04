@@ -1,0 +1,59 @@
+header {
+    padding: 1%;
+    background-color:rgb(37, 111, 176);
+    text-align: center;
+    font-weight: bold;
+    margin: 3%;
+    
+}
+body {
+    background-color: rgb(126, 180, 227);
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+form.formularz{
+    justify-content: space-between;
+    align-items: center;
+    background-color:azure;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+    text-align:center;
+}
+.question {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-weight:initial;
+
+}
+.question:hover {
+    color:rgb(193, 146, 173);
+    font-weight: underline;
+    transform: scale(1.1);
+}
+
+.send {
+    justify-content: space-between;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    font-size: 17px;
+}
+.send:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color:rgb(37, 111, 176);
+    text-align:center;
+    padding:1%;
+    font-size: 14px;
+    width: 100%;
+}
+.color input{
+    width: 5%;
+    height: 5%;
+    border: 1px solid black;
+
+}

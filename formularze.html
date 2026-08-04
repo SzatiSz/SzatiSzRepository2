@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularze</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="/Volumes/Dysk/Users/nikolasadownik/CSS/formularze.css">
+        <meta name="description" content="opis strony">
+        <meta name="author" content="Twoje Imię">
+        <meta name="keywords" content="słowa kluczowe">
+    </head>
+    <body>
+        <header>
+            <h1>Powiedz mi coś o SOBIE!</h1>
+        </header>
+        <form class="formularz" action="nikola.sadownik@icloud.com" method="POST" target="_blank">
+            <p class="question">Jak masz na imię?</p>
+            <p><input type="text" name="imię" value="" size="30"><br><hr><br>
+            <p class="question">Jakie masz nazwisko?</p>
+            <p><input type="text" name="nazwisko" value="" size="40"></p><br><hr><br>
+            <p class="question">Jaki jest Twój adres e-mail?</p>
+            <p><input type="email" name="email" value="" size="40"></p>
+            <p><input type="checkbox" name="zgoda"> Zgadzam się na przetwarzanie danych osobowych</p><br><hr><br>
+
+            <p class="question">Jak byś najlepiej opisał siebie?</p>
+            <p><input type="radio" name="cecha osobowości" value="Towarzyski/a">Towarzyski/a</p>
+            <p><input type="radio" name="cecha osobowości" value="Introwertyk/czka">Introwertyk/czka</p>
+            <p><input type="radio" name="cecha osobowości" value="Ambitny/a">Ambitny/a</p>
+            <p><input type="radio" name="cecha osobowości" value="Kreatywny/a">Kreatywny/a</p><br><hr><br>
+            <p class="question">Podaj ukrytą wiadomość dla mnie:</p>
+            <p><input type="password" name="ukryta wiadomość" value="" size="100"></p><br><hr><br>
+       
+            <p class="question">Jaki jest Twój ulubiony kolor?</p>
+            <p><input class="color" type="color" name="ulubiony kolor" value=""></p><br><hr><br>
+            
+            <p class="question">Ile masz lat?</p>
+            <p><input type="number" name="wiek" value="18" min="1" max="100" ></p><br><hr><br>
+            <p class="question">Wybierz swoją datę urodzenia:</p>
+            <p><input type="date" name="data urodzenia"></p><br><hr><br>
+            <p><input class="send" type="submit" value="Wyślij formularz!">&nbsp;&nbsp;
+            <input class="send" type="reset" value="Zacznij od nowa!"></p>
+        </form>
+
+        <form class="formularz" enctype="multipart/form-data" action="nikola.sadownik@icloud.com" method="post">
+                <p class="question">Dodaj swoje zdjęcie profilowe:</p>
+                <p><input type="file" name="zdjecie profilowe"></p><hr>
+                <p><input class="send" type="submit" value="Prześlij fotkę!"></p>
+        </form>
+        <footer>
+            <p>Autor: Nikola Sadownik &copy; Wszelkie prawa zastrzeżone - 2025</p>
+        </footer>
+    </body>
+
+</html>
